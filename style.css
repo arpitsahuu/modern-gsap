@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CFD2CF;
+}
+.container{
+    height: 80%;
+    width: 80%;
+    background-color: #fff;
+    position: relative;
+
+}
+.product{
+    height: 48%;
+    width: 0%;
+    overflow: hidden;
+    position: absolute;
+    /* border: 1px solid #000; */
+}
+.front-v{
+    height: 48%;
+    width: 0%;
+    top: 3%;
+    left: 2%;
+    z-index: 2;
+    /* overflow: hidden; */
+}
+.back-v{
+    top: 50%;
+    left: 28%;
+    z-index: 2;
+
+}
+.over-v{
+    height: 100%;
+    width: 0%;
+    /* background-color: navajowhite; */
+    left: 64%;
+    background-color: #fff;
+    position:absolute;
+    overflow: hidden;
+}
+.main-img{
+    height: 100%; 
+    
+}
+.heading{
+    font-family: "ogg";
+    position: absolute;
+    top: 1%;
+    left: 36%;
+    font-size: 60px;
+    font-weight: 500;
+}
+p{
+    font-size: 12px;
+    font-family: "ogg";
+    position: absolute;
+    top: 26%;
+    text-align: center;
+    left: 37%;
+    color: rgb(103, 103, 103);
+}
+.btn1{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 47%;
+    background-color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgs{
+    height: 100%;
+}
+
+.p-headline{
+    height: 50px;
+    width: 250px;
+    position: relative;
+    top: 59%;
+    left: 3%;
+    overflow: hidden;
+}
+.p-headline h3{
+    font-size: 20px;
+    position: absolute;
+    top: -60px;
+    
+}
+.btn2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    font-size: 25px;
+    position: absolute;
+    top: 75%;
+    left: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.social{
+    margin-top: 42%;
+    margin-left: 7%;
+}
+.social i{
+    margin-left: 16px;
+}
